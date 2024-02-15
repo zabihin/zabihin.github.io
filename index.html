@@ -1,466 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE HTML>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Zahra Portfolio</title>
+</head>
 
-<html>
+<body>
 
-    <head>
-		<title>Zahra</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-    <div id="header-wrapper">
-        <header id="header" class="container">
 
-            
-                <nav id="nav">
-                    <ul>
-                       
-                        <li><a href="About.html">About me</a></li>
-                       
-                    </ul>
-                </nav>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
 
-        </header>
-    </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    
+                   
+                    <li class="nav__item"><a href="#education" class="nav__link"><i class="uil uil-graduation-cap nav__icon"></i> My Journey</a></li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i> Contact</a></li>
 
+
+
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+       
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/zabihinpour" target="_blank" class="footer__social">
+                            <i class="skill-icons--linkedin"></i>
+                        </a>
     
-
-
-    <body class="is-preload homepage">
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				
-
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div id="banner" class="box container">
-						<div class="row">
-							<div class="col-7 col-12-medium">
-								<h2>Zahra Zabihinpour</h2>
-								<p>Data Scientist</p>
-							</div>
-							<div class="col-5 col-12-medium">
-
-								<ul>
-									<a href="#" class="image featured"><img src="images/pic00.jpg" alt="" /></a>
-
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-						
-
-			</div>
-
-           
-        </div>
-        
-        
-    </body>
-
- 
-	<head>
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title>Snippet - GoSNippets</title>
-		<link href='' rel='stylesheet'>
-		<link href='' rel='stylesheet'>
-		<style>body {
-background-color: #f1f6ff;
-}
-
-#news-slider {
-margin-top: 80px;
-}
-
-.post-slide {
-background: #fff;
-margin: 20px 15px 20px;
-border-radius: 15px;
-padding-top: 1px;
-box-shadow: 0px 14px 22px -9px #bbcbd8;
-}
-
-.post-slide .post-img {
-position: relative;
-overflow: hidden;
-border-radius: 10px;
-margin: -12px 15px 8px 15px;
-margin-left: -10px;
-}
-
-.post-slide .post-img img {
-width: 100%;
-height: auto;
-transform: scale(1, 1);
-transition: transform 0.2s linear;
-}
-
-.post-slide:hover .post-img img {
-transform: scale(1.1, 1.1);
-}
-
-.post-slide .over-layer {
-width: 100%;
-height: 100%;
-position: absolute;
-top: 0;
-left: 0;
-opacity: 0;
-background: linear-gradient(-45deg, rgba(6, 190, 244, 0.75) 0%, rgba(45, 112, 253, 0.6) 100%);
-transition: all 0.50s linear;
-}
-
-.post-slide:hover .over-layer {
-opacity: 1;
-text-decoration: none;
-}
-
-.post-slide .over-layer i {
-position: relative;
-top: 45%;
-text-align: center;
-display: block;
-color: #fff;
-font-size: 25px;
-}
-
-.post-slide .post-content {
-background: #fff;
-padding: 2px 20px 40px;
-border-radius: 15px;
-}
-
-.post-slide .post-title a {
-font-size: 15px;
-font-weight: bold;
-color: #333;
-display: inline-block;
-text-transform: uppercase;
-transition: all 0.3s ease 0s;
-}
-
-.post-slide .post-title a:hover {
-text-decoration: none;
-color: #3498db;
-}
-
-.post-slide .post-description {
-line-height: 24px;
-color: #808080;
-margin-bottom: 25px;
-}
-
-.post-slide .post-date {
-color: #a9a9a9;
-font-size: 14px;
-}
-
-.post-slide .post-date i {
-font-size: 20px;
-margin-right: 8px;
-color: #CFDACE;
-}
-
-.post-slide .read-more {
-padding: 7px 20px;
-float: right;
-font-size: 12px;
-background: #2196F3;
-color: #ffffff;
-box-shadow: 0px 10px 20px -10px #1376c5;
-border-radius: 25px;
-text-transform: uppercase;
-}
-
-.post-slide .read-more:hover {
-background: #3498db;
-text-decoration: none;
-color: #fff;
-}
-
-.owl-controls .owl-buttons {
-text-align: center;
-margin-top: 20px;
-}
-
-.owl-controls .owl-buttons .owl-prev {
-background: #fff;
-position: absolute;
-top: -13%;
-left: 15px;
-padding: 0 18px 0 15px;
-border-radius: 50px;
-box-shadow: 3px 14px 25px -10px #92b4d0;
-transition: background 0.5s ease 0s;
-}
-
-.owl-controls .owl-buttons .owl-next {
-background: #fff;
-position: absolute;
-top: -13%;
-right: 15px;
-padding: 0 15px 0 18px;
-border-radius: 50px;
-box-shadow: -3px 14px 25px -10px #92b4d0;
-transition: background 0.5s ease 0s;
-}
-
-.owl-controls .owl-buttons .owl-prev:after,
-.owl-controls .owl-buttons .owl-next:after {
-content: "\f104";
-font-family: FontAwesome;
-color: #333;
-font-size: 30px;
-}
-
-.owl-controls .owl-buttons .owl-next:after {
-content: "\f105";
-}
-
-@media only screen and (max-width:1280px) {
-.post-slide .post-content {
-padding: 0px 15px 25px 15px;
-}
-}</style>
-		<script type='text/javascript' src=''></script>
-		<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
-		<script type='text/javascript' src=''></script>
-	</head>
-	<body oncontextmenu='return false' class='snippet-body'>
-	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
-<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-12">
-<div id="news-slider" class="owl-carousel">
-
-
-
-
-
-
-
-
-
-<div class="post-slide">
-<div class="post-img">
-<img src="images/pic01.jpg">
-</div>
-<div class="post-content">
-	<div class="card-body">
-		<header>
-			<h4>Lung Cancer Diagnosis of CT images</h4>
-			<p> Image classification, Convolutional Neural Network, Transfer learning, Inception</p>
-		</header>
-		
-		<p class="card-text">This project is about the classification of chest CT scan images using deep learning methods and the deployment of an application for it.
-			But why is this project important?
-			Early detection of cancer provides the best chance for successful treatment. Lung cancer is the biggest cancer killer in Europe and according to the latest WHO data published in 2020, the lung cancer death rate in France is 19th in the world.
-			It is easier to diagnose lung cancer with a CT scan than with a regular chest X-ray. A CT scan can also show the size, shape, and location of a lung tumor.
-			Therefore, it is very important to have an application that can easily and quickly diagnose the tumor.
-			For this purpose, the data were taken from the <a href="https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images">Kaggle website </a>and the transfer learning method was used to train the data.
-			Finally, this application can distinguish a healthy lung from a cancerous lung with a sensitivity of 99.4%, specificity of 96.3%, and accuracy of 80%, and identify the type of cancer.
-			<li><a href="https://github.com/zabihin/Project-Chest-CT-scan-images-classification-using-deep-learnings-method">github</a></li>
-			
-		</p>
-
-	</div>
-</div>
-</div>
-
-
-
-<div class="post-slide">
-	<div class="post-img">
-	<img src="images/pic06.jpg">
-	</div>
-	<div class="post-content">
-		<div class="card-body">
-		<header>
-			<h4>Detecting Uber pickups hotspots in NY</h4>
-			<p> Unsupervised Machine Learning, DBScan, Kmeans, Plotly</p>
-		</header>
-		<p>In this project, for Uber data from April to September 2014, and by using clustering methods, I have proposed pickup hotspots for the standing of Uber drivers in New York.
-			In this project, the effect of the day of the week and the hour is considered.
-			For example, the pickup hotspots for the standing Uber drivers on Saturday at midnight are very different from Monday at the same time.<li><a href="https://github.com/zabihin/Bloc_3_Uber">github</a></li>
-		</p>
-	</div>
-	
-</div>
-
-</div>
-
-
-
-
-<div class="post-slide">
-	<div class="post-img">
-	<img src="images/pic05.jpg">
-	</div>
-	<div class="post-content">
-		<div class="card-body">
-		<header>
-			<h4>Scraping Booking.com: Suggesting the best destinations in France based on weather</h4>
-			<p> BeautifulSoup, Plotly, Scrapy, Boto3, SQLalchemy</p>
-		</header>
-		<p>In this project, a list of 35 cities in France is given for travel, and the goal is to suggest 5 cities according to the weather, as well as suggest hotels in those cities and display them on the map.
-			For this purpose, the data is scraped from the destinations. Then the weather information was received at each destination and 5 cities were selected. Finally, for these 5 destinations, by scraping the Booking.com site, information on high-scoring hotels has been received.
-			And the address of the hotels, their prices, and the air temperature in the city is displayed on the map.
-			Finally, all the above information is stored in a data lake and the scraped data is extracted, transformed, and loaded from its data lake into its data warehouse.<li><a href="https://github.com/zabihin/Project_Kayak">github</a></li>
-		</p>
-	</div>
-	
-</div>
-
-</div>
-
-
-<div class="post-slide">
-	<div class="post-img">
-	<img src="images/pic03.jpg">
-	</div>
-	<div class="post-content">
-		<div class="card-body">
-		<header>
-			<h4>Natural Language Processing with Disaster Tweets</h4>
-			<p> Tensorflow, Spacy, NLP, RNN, LSTM, GRU</p>
-		</header>
-		<p>This project is an NLP competition on Kaggle: https://www.kaggle.com/c/nlp-getting-started
-			The project aims to predict which tweets are about real disasters and which are not. The project can be divided into three phases:
-			Part 1: Perform EDA Part 2: Perform necessary pre-processing to prepare data for deep learning models
-			Part 3: Training at least two models to predict which tweets are about a disaster
-			<li><a href="https://github.com/zabihin/NLP_disaster_tweet">github</a></li>
-		</p>
-	</div>
-	
-</div>
-
-</div>
-
-
-<div class="post-slide">
-	<div class="post-img">
-	<img src="images/pic04.jpg">
-	</div>
-	<div class="post-content">
-		<div class="card-body">
-		<header>
-			<h4>Predict Walmart Sales</h4>
-			<p> Supervised Machine Learning, Scikit-learn, Pandas, Numpy, Scikit-learn, Plotly</p>
-		</header>
-		<p>This project is based on the Walmart Recruiting -Store Sales Forecast dataset on<a href="https://www.kaggle.com/datasets/yasserh/walmart-dataset" >Kaggle </a>.
-			The goal of this project is to build a machine-learning model that can estimate weekly sales in Walmart stores with the best possible accuracy in the predictions made. Such a model helps Walmart's marketing services better understand how sales are affected by economic indicators and may be used to plan future marketing campaigns.
-			The project can be divided into three phases:
-			Part 1: Creating an EDA and all the necessary preprocessing to prepare the data for machine learning
-			Part 2: Training a linear regression model (baseline)
-			Part 3: Avoiding Overfitting<li><a href="https://github.com/zabihin/Walmart_Sales">github</a></li>
-		</p>
-	</div>
-	
-</div>
-
-</div>
-
-
-<div class="post-slide">
-	<div class="post-img">
-	<img src="images/pic02.jpg">
-	</div>
-	<div class="post-content">
-		<div class="card-body">
-		<header>
-			<h4>Getaround:Deploy an EDA with app framework Streamlit and deploy an API</h4>
-			<p> Scikit-learn, FastAPI, Streamlit, Uvicorn, Mlflow, Heroku, Docker</p>
-		</header>
-		<p>Getaround is an online car-sharing service that connects drivers who need to book a car with owners who share their cars for a fee.
-			In the first part, data analysis and an understanding of the importance of canceled rents have been done. The second part, by creating a model that shows the optimal rental price to users, is built in a dashboard with Streamlit and deployed with Docker & Heroku.
-			Finally, an API has been created that integrates the connected model with AWS and MLflow and deploys it with Docker & Heroku.
-			<li><a href="https://github.com/zabihin/GetAround">github</a></li>
-		</p>
-	</div>
-	
-</div>
-
-</div>
-
-
-<div class="post-slide">
-	<div class="post-img">
-	<img src="images/pic07.jpg">
-	</div>
-	<div class="post-content">
-		<div class="card-body">
-		<header>
-			<h4>Exploratory Data Analysis on Speed Dating data</h4>
-			<p>Plotly, Seaborn</p>
-		</header>
-		<p>The purpose of this project is to investigate the factors and biases effective in choosing a person who participates in speed dating sessions.
-			The dataset was obtained from the Speed ​​
-			<a href="https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment">Dating Experiment dataset on Kaggle</a>.
-			Data were collected from participants in experiential speed dating events from 2002-2004. During these events, contestants had a four-minute "first date" with any other contestant of the opposite sex. At the end of the four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six characteristics: attractiveness, honesty, intelligence, fun, ambition, and shared interests.
-			<li><a href="https://github.com/zabihin/Speed-Dating">github</a></li>
-		</p>
-	</div>
-	
-</div>
-
-</div>
-
-
-
-
-
-</div>
-</div>
-</div>
-<script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
-	<script type='text/javascript'>$(document).ready(function () {
-$("#news-slider").owlCarousel({
-items: 3,
-itemsDesktop: [1199, 3],
-itemsDesktopSmall: [980, 2],
-itemsMobile: [600, 1],
-navigation: true,
-navigationText: ["", ""],
-pagination: true,
-autoPlay: true });
-
-});</script>
-
-
-	</body>
-	
-      
-      <!-- Footer -->
-		<div id="footer-wrapper">
-			<footer id="footer" class="container">
-				<div class="page__footer-follow">
-					<ul class="social-icons">
-					
-						<li><strong>Follow me:</strong></li>
-					
-					
-							
-						<a href="https://github.com/zabihin"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
-					
-					
-					
-					<a href="https://www.linkedin.com/in/zahra-zabihinpour/"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
-					<a href="https://huggingface.co/Zabihin">Hugging Face</a>
-
-					</ul>
-			</div>
-			</footer>
-		</div>    
-
+                        <a href="https://www.github.com/zabihin" target="_blank" class="footer__social">
+                            <i class="devicon--github"></i>
+                        </a>
+                      
+                        <a href="https://huggingface.co/Zabihin" target="_blank" >
+                            <span class="noto-v1--hugging-face"></span>
+                          </a>
     
+    
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x="20" y="10"
+                                    xlink:href="assets/img/About/about.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Zahra</h1>
+                        <h3 class="home__subtitle">Data Scientist</h3>
 
   
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/About/pic.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        I hold a Ph.D. in Physical Chemistry and am skilled in research and statistical analysis. I enjoy coding and have moved into data science to create helpful apps. I also value teamwork and building strong relationships.
+                    </p>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/Zahra_Zabihinpour.pdf" class="button button--flex resume">
+                            Download Resume<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILLS 1====================-->
+                    <div class="skills__content skills__close">
+
+                        <div class="skills__header">
+                            <i class="uil fa-solid--laptop-code skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Programming</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                </div>
+                                
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SQL</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MATLAB</h3>
+                                </div>
+
+                            </div>
+
+
+
+
+                           
+                        </div>
+                    </div>
+
+                    <!--==================== SKILLS 2====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil streamline--money-graph-analytics-business-product-graph-data-chart-analysis  skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Data Analysis and Visualization</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">NumPy</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">pandas</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">matplotlib</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">scikit-learn</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Plotly</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">OpenCV</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">OCR</h3>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Pillow</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">seaborn</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!--==================== SKILLS 3====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil carbon--machine-learning-model"></i>
+
+                            <div>
+                                <h1 class="skills__title">Machine Learning</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Supervised Learning</h3>
+                                </div>
+
+                            </div>
+                        
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Unsupervised Learning
+                                    </h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Scikit-Learn
+                                    </h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Model Evaluation and Validation</h3>
+                                </div>
+    
+                            </div>
+
+
+
+                        </div> 
+                    </div>
+                    <!--==================== SKILLS 4====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil eos-icons--neural-network "></i>
+
+                            <div>
+                                <h1 class="skills__title">  Deep Learning</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Natural Language Processing (NLP)
+                                    </h3>
+                                </div>
+                  
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Language Model Fine-Tuning (LLM)</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Transfer Learning </h3>
+                                </div>
+      
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Convolutional Neural Networks (CNNs)</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">TensorFlow</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Transformers
+                                    </h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Hugging Face</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!--==================== SKILLS 5====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil file-icons--docker skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Software Development and Collaboration</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Code Collaboration (Git, GitHub, Bitbucket)</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Web Scraping (Data Extraction, HTML Parsing, Web Data Collection, Beautiful Soup, Selenium)</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Industrialization (Docker, Deployment)</h3>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">My Personal Journey</h2>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--==================== Education ====================-->
+
+                    <div class="qualification__content qualification__active" data-content id="education">
+
+                        <!--====================  jedha ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Scientist Training – FullStack</h3>
+                                <span class="qualification__subtitle">Jedha, Paris, France</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    04/2022-07/2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== phd ====================-->
+                        <div class="qualification__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Ph.D., Physical Chemistry</h3>
+                                <span class="qualification__subtitle">Kharazmi University, Tehran, Iran</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2007-2012
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== master ====================-->
+                        <div class="qualification__data">
+
+
+                            <div>
+                                <h3 class="qualification__title">M.Sc., Physical Chemistry </h3>
+                                <span class="qualification__subtitle">K. N. Toosi, Tehran, Iran</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2004-2006
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+    
+
+                    </div>
+
+                    <!--==================== work====================-->
+
+                    <div class="qualification__content" data-content id="work">
+
+                        <!--====================  1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Scientist</h3>
+                                <span class="qualification__subtitle">Luna, Paris, France</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    01/2023 - 09/2023
+                                </div>
+
+    
+
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--====================  2 ====================-->
+                        <div class="qualification__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Researcher</h3>
+                                <span class="qualification__subtitle">Institute for Research in Fundamental Sciences, Tehran, Iran</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                   2018-2021
+                                </div>
+
+   
+                            
+                            </div>
+                        </div>
+
+
+                        <!--====================  3 ====================-->
+                        <div class="qualification__data">
+
+                            <div>
+                                <h3 class="qualification__title">Lecturer</h3>
+                                <span class="qualification__subtitle">Kharazmi University, Tehran, Iran</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2012 - 2018
+                                </div>
+
+
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">My Projects</h2>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+
+                    <!--==================== Pproject 1====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/Portfolio/pr1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Symptom Checker and Diagnosis App</h3>
+                            <h6 class="portfolio__subtitle">NLP, AI Diagnostics, BERT Model, Medical AI
+                            </h6>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>Crafted a BERT-based algorithm, fine-tuned for symptom-driven disease identification. </p>
+                            </li>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>Built a user-centric diagnostic application on Hugging Face Spaces, designed for straightforward symptom logging and immediate diagnostic feedback.</p>
+                            </li>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p> Demonstrated the model's exceptional diagnostic accuracy with an average F1-score around 0.97.</p>
+                            </li>
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p> Augmented the application with a feature allowing API key input, granting users access to in-depth disease information and treatment options via GPT-3 integration.</p>
+                            </li>
+
+
+                            <a href="https://github.com/zabihin/BERT-SymptomDiagnosis"
+                                class="button button--flex button--small portfolio__button">
+                                View Code
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="https://huggingface.co/spaces/Zabihin/Symptom-Diagnoses"
+                            class="button button--flex button--small portfolio__button">
+                            View APP
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                        </div>
+                    </div>
+
+
+                    <!--==================== project 2====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/Portfolio/pr2.webp" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Lung Cancer Diagnosis from CT Scan Images</h3>
+                            <h6 class="portfolio__subtitle">Image classification, CNN, Transfer learning, Inception
+
+                            </h6>
+
+                        
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>Developed a lung cancer diagnosis tool using chest CT scans, employing CNNs and Inception for transfer learning, enhancing the model's ability to differentiate between healthy and cancerous lungs.
+                                     </p>
+                            </li>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>Addressed the critical need for early lung cancer detection, with the model achieving 99.4% sensitivity, 96.3% specificity, and 80% accuracy in identifying cancer types. </p>
+                            </li>
+
+
+                            <a href="https://github.com/zabihin/CT"
+                                class="button button--flex button--small portfolio__button">
+                                View Code
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+
+                            <a href="https://lung-cancer-ct.streamlit.app/"
+                            class="button button--flex button--small portfolio__button">
+                           View App
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                        </div>
+                    </div>
+
+                
+                 <!--==================== Pproject 3====================-->
+                 <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/Portfolio/pr3.webp" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Detecting Uber pickups hotspots in NY</h3>
+                        <h6 class="portfolio__subtitle">Unsupervised Machine Learning, DBScan, Kmeans, Plotly
+                            </h6>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Proposed pickup hotspots for Uber drivers' standing locations in New York. </p>
+                        </li>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Incorporated the impact of day of the week and hour on pickup hotspots.</p>
+                        </li>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p> Noted significant differences in hotspots between Saturday midnight and Monday at the same time.</p>
+                        </li>
+
+
+
+                        <a href="https://github.com/zabihin/Bloc_3_Uber"
+                            class="button button--flex button--small portfolio__button">
+                            View Code
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+                 <!--==================== Pproject 4====================-->
+                 <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/Portfolio/pr4.webp" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Scraping Booking.com</h3>
+                        <h6 class="portfolio__subtitle">BeautifulSoup, Plotly, Scrapy, Boto3, SQLalchemy
+                            </h6>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Developed a travel suggestion system for 35 French cities, selecting 5 based on weather conditions and recommending top-rated hotels from Booking.com for each. </p>
+                        </li>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Displayed selected cities, hotel details (addresses, prices), and local temperatures on a map for an intuitive travel planning experience.</p>
+                        </li>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p> Implemented a data management process involving scraping, storing information in a data lake, and transferring it to a data warehouse.</p>
+                        </li>
+               
+
+
+                        <a href="https://github.com/zabihin/Project_Kayak"
+                            class="button button--flex button--small portfolio__button">
+                            View Code
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+ 
+                    </div>
+                </div>
+                 <!--==================== Pproject 5====================-->
+                 <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/Portfolio/pr5.webp" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Natural Language Processing with Disaster Tweets</h3>
+                        <h6 class="portfolio__subtitle">Tensorflow, Spacy, NLP, RNN, LSTM, GRU
+                            </h6>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Developed a model capable of accurately distinguishing between tweets related to actual disasters and those that are not, utilizing advanced NLP techniques.
+                            </p>
+                        </li>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>The project encompasses three key phases: conducting Exploratory Data Analysis (EDA), preparing the data through necessary pre-processing for deep learning models, and training at least two models for the prediction task.</p>
+                        </li>
+
+
+                        <a href="https://github.com/Zabihin/NLP_disaster_tweet"
+                            class="button button--flex button--small portfolio__button">
+                            View Code
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                 <!--==================== Pproject 6====================-->
+                 <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/Portfolio/pr6.webp" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Predict Walmart Sales</h3>
+                        <h6 class="portfolio__subtitle">Supervised Machine Learning, Scikit-learn, Pandas, Numpy
+                            </h6>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Constructed a machine learning model capable of predicting Walmart's weekly sales with high accuracy, aiding in the understanding of sales trends influenced by economic factors for more informed marketing strategies. </p>
+                        </li>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>The project involves initial Exploratory Data Analysis (EDA) and data preprocessing, followed by the development of a baseline linear regression model for sales forecasting.</p>
+                        </li>
+
+             
+
+
+                        <a href="https://github.com/zabihin/Walmart_Sales"
+                            class="button button--flex button--small portfolio__button">
+                            View Code
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                 <!--==================== Pproject 7====================-->
+                 <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/Portfolio/pr7.webp" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Getaround</h3>
+                        <h6 class="portfolio__subtitle">Scikit-learn, FastAPI, Streamlit, Uvicorn, Mlflow, Heroku, Docker
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Analyzed data for understanding the significance of canceled rentals in the Getaround car-sharing platform, improving service efficiency and user experience. </p>
+                        </li>
+
+                        <li class="qualification__modal-work portfolio__description">
+                            <i class="uil uil-check-circle qualification__modal-icon"></i>
+                            <p>Developed and integrated a model that recommends optimal rental prices, presented through a Streamlit dashboard and deployed using Docker & Heroku, complemented by an API that connects the model with AWS and MLflow for robust deployment.</p>
+                        </li>
+
+    
+
+                        <a href="https://github.com/zabihin/GetAround"
+                            class="button button--flex button--small portfolio__button">
+                            View Code
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+
+                    </a>
+                    </div>
+                </div>
+
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <p><br>
+            <br>
+            </p>
+    
+  
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="contact">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Zahra Zabihihinpour</h1>
+                    <a href="mailto: zabihin@gmail.com"><span class="footer__subtitle">zabihin@gmail.com</span></a>
+
+                </div>
+
+
+                <div class="footer__socials">
+                    
+                    <a href="https://www.linkedin.com/in/zabihinpour" target="_blank" class="footer__social">
+                        <i class="skill-icons--linkedin"></i>
+                    </a>
+
+                    <a href="https://www.github.com/zabihin" target="_blank" class="footer__social">
+                        <i class="devicon--github"></i>
+                    </a>
+                  
+                    <a href="https://huggingface.co/Zabihin" target="_blank" >
+                        <span class="noto-v1--hugging-face"></span>
+                      </a>
+
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
