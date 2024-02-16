@@ -794,6 +794,7 @@ img{
     color: #FFF;
 }
 
+
 /* Show scroll */
 .show-scroll{
     bottom: 5rem;
@@ -1248,8 +1249,4 @@ img{
         -webkit-mask-size: 100% 100%;
         mask-size: 100% 100%;
       }
-    .skills__title {
-	  padding-left: 20px; /* Adjust the value as needed */
-	}
-
 }
