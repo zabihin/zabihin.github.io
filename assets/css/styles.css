@@ -1249,4 +1249,13 @@ img{
         -webkit-mask-size: 100% 100%;
         mask-size: 100% 100%;
       }
+<<<<<<< HEAD
+=======
+      .skills__title {
+        padding-left: 20px; /* Adjust the value as needed */
+      }
+      .spacer {
+        height: 20px;
+      }
+>>>>>>> 126db33 (Change resume)
 }
